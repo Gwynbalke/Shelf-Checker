@@ -15,4 +15,5 @@ Baza danych, z którą łączy się aplikacja działa lokalnie za pośrednictwem
 Zalogować się można za pośrednictwem poniższego usera:
 
 login - user
+
 hasło - user123
