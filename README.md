@@ -3,7 +3,7 @@ Projekt zaliczeniowy - Programowanie zaawansowane
 
 
 
-Baza danych, z którą łączy się aplikacja działa lokalnie za pośrednictwem Microsoft SQL Server, w celu połączenia się z bazą należy zaimportować gotowy plik do programu, a także podmienić „connectionString” na lokalnie utworzoną bazę:
+Baza danych, z którą łączy się aplikacja działa lokalnie za pośrednictwem Microsoft SQL Server, w celu połączenia się z bazą należy zaimportować gotowy plik do programu, a także podmienić „connectionString” w pliku "Web.config"na lokalnie utworzoną bazę:
 
 	<connectionStrings>
 		<add name="mycon" connectionString="server=DESKTOP-E7TFH26\SQLEXPRESS;database=baza;integrated security=true;" />
