@@ -133,6 +133,13 @@ namespace projekt
                         SqlCommand cmmd = new SqlCommand(Register, con);
                         SqlDataReader regcomm = cmmd.ExecuteReader();
                         lblError.Text = "Pomyślnie dodano użytkownika";
+                        foreach (Control control in Form.Controls)
+                        {
+                            if (control is TextBox)
+                            {
+                                ((TextBox)control).Text = string.Empty;
+                            }
+                        }
                     }
 
                     con.Close();

@@ -140,7 +140,13 @@ namespace projekt
                 string dodaj_towar = " UPDATE Towar SET ilosc = ilosc + " + ilosc_towaru + " WHERE Nazwa ='" + nazwa_towaru + "' ; ";
                 SqlCommand cmd = new SqlCommand(dodaj_towar, con);
                 SqlDataReader regcomm = cmd.ExecuteReader();
-
+                foreach (Control control in Form.Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        ((TextBox)control).Text = string.Empty;
+                    }
+                }
 
                 if (regcomm.Read())
                 {
@@ -171,7 +177,13 @@ namespace projekt
                 string odejmij_towar = " UPDATE Towar SET ilosc = ilosc - " + ilosc_towaru + " WHERE Nazwa ='" + nazwa_towaru + "' ; ";
                 SqlCommand cmd = new SqlCommand(odejmij_towar, con);
                 SqlDataReader regcomm = cmd.ExecuteReader();
-
+                foreach (Control control in Form.Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        ((TextBox)control).Text = string.Empty;
+                    }
+                }
 
                 if (regcomm.Read())
                 {
@@ -200,7 +212,13 @@ namespace projekt
                 string zmien_cene = " UPDATE Towar SET cena =" + cena_towaru + " WHERE Nazwa ='" + nazwa_towaru + "' ; ";
                 SqlCommand cmd = new SqlCommand(zmien_cene, con);
                 SqlDataReader regcomm = cmd.ExecuteReader();
-
+                foreach (Control control in Form.Controls)
+                {
+                    if (control is TextBox)
+                    {
+                        ((TextBox)control).Text = string.Empty;
+                    }
+                }
 
                 if (regcomm.Read())
                 {
@@ -246,7 +264,13 @@ namespace projekt
                         string dodaj_nowy = "insert into Towar (Nazwa, ilosc, cena, dodane_przez) values('" + nazwa_towaru + "', " + ilosc + ", " + cena_towaru + ", '" + kto_dodal + "');";
                         SqlCommand cmmd = new SqlCommand(dodaj_nowy, con);
                         SqlDataReader regcomm = cmmd.ExecuteReader();
-
+                        foreach (Control control in Form.Controls)
+                        {
+                            if (control is TextBox)
+                            {
+                                ((TextBox)control).Text = string.Empty;
+                            }
+                        }
                     }
                     con.Close();
                 }
