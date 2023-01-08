@@ -10,3 +10,9 @@ Baza danych, z którą łączy się aplikacja działa lokalnie za pośrednictwem
 	</connectionStrings> 
   
  Link do lokalnie zahostowanej strony -  https://localhost:44379/login.aspx
+
+
+Zalogować się można za pośrednictwem poniższego usera:
+
+login - user
+hasło - user123
