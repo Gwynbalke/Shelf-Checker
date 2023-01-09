@@ -17,3 +17,12 @@ Zalogować się można za pośrednictwem poniższego usera:
 login - user
 
 hasło - user123
+
+
+
+----------------------------------------------------------------------
+
+POPRAWIONA WERSJA PROJEKTU ŁĄCZY SIĘ Z BAZĄ DANYCH W CHMURZE (AZURE).
+NIE MA W NIEJ POTRZEBY ZMIANY PLIKU ANI POBRANIA SQL MICROSOFT
+
+----------------------------------------------------------------------
