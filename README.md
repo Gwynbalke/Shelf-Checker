@@ -23,6 +23,6 @@ hasło - user123
 ----------------------------------------------------------------------
 
 POPRAWIONA WERSJA PROJEKTU ŁĄCZY SIĘ Z BAZĄ DANYCH W CHMURZE (AZURE).
-NIE MA W NIEJ POTRZEBY ZMIANY PLIKU ANI POBRANIA SQL MICROSOFT
+NIE MA W NIEJ POTRZEBY ZMIANY PLIKU ANI POBRANIA SQL MICROSOFT.
 
 ----------------------------------------------------------------------
