@@ -9,7 +9,7 @@ Baza danych, z którą łączy się aplikacja działa lokalnie za pośrednictwem
 		<add name="mycon" connectionString="server=DESKTOP-E7TFH26\SQLEXPRESS;database=baza;integrated security=true;" />
 	</connectionStrings> 
   
- Link do lokalnie zahostowanej strony -  https://localhost:44379/login.aspx
+ 
 
 
 Zalogować się można za pośrednictwem poniższego usera:
